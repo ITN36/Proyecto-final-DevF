@@ -1,0 +1,50 @@
+/*Historia*/
+p {
+    width: 300px;
+    text-align: justify;
+}
+/*Albumes*/ 
+#albumes img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+#albumes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#albumes h2{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#albumes article{
+    text-align: center;
+}
+
+/*Miembros*/
+#miembros img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+#miembros {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#miembros h2{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#miembros article{
+    text-align: center;
+}
